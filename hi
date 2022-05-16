@@ -28,7 +28,7 @@ library.theme = {
     cursorimg = "https://t0.rbxcdn.com/42f66da98c40252ee151326a82aab51f",
     backgroundcolor = Color3.fromRGB(20, 20, 20),
     tabstextcolor = Color3.fromRGB(240, 240, 240),
-    bordercolor = Color3.fromRGB(255,163,26),
+    bordercolor = Color3.fromRGB(255,255,255),
     accentcolor = Color3.fromRGB(28, 56, 139),
     accentcolor2 = Color3.fromRGB(16, 31, 78),
     outlinecolor = Color3.fromRGB(60, 60, 60),
@@ -92,7 +92,7 @@ function library:CreateWatermark(name, position)
     watermark.mainbar.Name = "Main"
     watermark.mainbar.BorderColor3 = Color3.fromRGB(255,163,26)
     watermark.mainbar.Visible = watermark.Visible
-    watermark.mainbar.BorderSizePixel = 1
+    watermark.mainbar.BorderSizePixel = 0
     watermark.mainbar.ZIndex = 5
     watermark.mainbar.Position = UDim2.new(0, position and position.X or 10, 0, position and position.Y or 10)
     watermark.mainbar.Size = UDim2.new(0, 0, 0, 25)
