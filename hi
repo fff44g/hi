@@ -99,7 +99,7 @@ function library:CreateWatermark(name, position)
 
     watermark.Gradient = Instance.new("UIGradient", watermark.mainbar)
     watermark.Gradient.Rotation = 90
-    watermark.Gradient.Color = ColorSequence.new({ ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255,163,26)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(41,41,41)) })
+    watermark.Gradient.Color = ColorSequence.new({ ColorSequenceKeypoint.new(0.00, Color3.fromRGB(41,41,41)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0,0,0)) })
 
     watermark.Outline = Instance.new("Frame", watermark.mainbar)
     watermark.Outline.Name = "outline"
